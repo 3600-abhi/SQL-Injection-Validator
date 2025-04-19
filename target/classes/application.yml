@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+custom:
+  sql_injection:
+    validate: "true"
+    pattern: "(?i)(\\b(SELECT|INSERT|UPDATE|DELETE|DROP|CREATE|ALTER|TRUNCATE|EXEC|UNION|JOIN|--|;|/\\*|\\*/|xp_)\\b)"
